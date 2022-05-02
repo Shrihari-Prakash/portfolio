@@ -5,7 +5,7 @@ import {
   SettingOutlined,
   UserOutlined,
 } from "@ant-design/icons";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import { routes } from "../../routes";
@@ -45,6 +45,10 @@ const SideBarWrapper = styled.div`
       border-left: 2px solid ${Theme.Colors.Accent};
       opacity: 1;
     }
+  }
+
+  ${Theme.Media.Portrait}, ${Theme.Media.Mobile} {
+    display: none;
   }
 `;
 

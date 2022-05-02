@@ -2,7 +2,6 @@ import {
   BellOutlined,
   BranchesOutlined,
   CloseCircleOutlined,
-  CodeOutlined,
   MessageOutlined,
   SmileOutlined,
   WarningOutlined,
