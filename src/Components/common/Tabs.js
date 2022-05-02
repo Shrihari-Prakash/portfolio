@@ -55,7 +55,7 @@ export default function Tabs() {
           }
           onClick={() => {
             navigate(file.route);
-            if (navigator.vibrate) navigator.vibrate(50);
+            if (navigator.vibrate) navigator.vibrate(100);
           }}
         >
           <img src={file.icon} alt={file.name} className="file-icon" />
