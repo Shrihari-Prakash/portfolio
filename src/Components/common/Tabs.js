@@ -53,7 +53,10 @@ export default function Tabs() {
           className={
             "tab" + (location.pathname === file.route ? " active" : "")
           }
-          onClick={() => navigate(file.route)}
+          onClick={() => {
+            navigate(file.route);
+            if (navigator.vibrate) navigator.vibrate(50);
+          }}
         >
           <img src={file.icon} alt={file.name} className="file-icon" />
           {file.name}
