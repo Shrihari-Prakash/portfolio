@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import styled from "styled-components";
 import TagCloud from "../Components/common/TagCloud";
 import Theme from "../theme";
-import Avatar from "../assets/images/avatar.png";
+import Me from "../assets/images/me.jpg";
 
 function calculateExperience(date) {
   // birthday is a date
@@ -19,24 +19,31 @@ const AboutWrapper = styled.div`
   color: ${Theme.Colors.TextOnBackground};
   text-align: left;
 
-  #skills {
+  .about-wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
+    justify-content: space-evenly;
 
-  .description {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    #skills {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
 
-    img {
-      margin-right: 20px;
+    .intro {
+      width: 45%;
+      text-align: center;
 
       ${Theme.Media.Portrait}, ${Theme.Media.Mobile} {
-        margin-bottom: 20px;
+        width: 100%;
       }
+    }
+
+    img {
+      height: 160px;
+      width: 160px;
+      border-radius: 100%;
     }
 
     ${Theme.Media.Portrait}, ${Theme.Media.Mobile} {
@@ -113,16 +120,23 @@ export default function About() {
 
   return (
     <AboutWrapper>
-      <h2>About me</h2>
-      <p className="description">
-        I build microservices that scale and frontends that feel native like for
-        the web. I'm a fullstack engineer with over&nbsp;
-        {calculateExperience(new Date(2019, 11, 27, 0, 0, 0, 0))} years of
-        experience. My skills include JavaScript Core, Node.js, React, MySQL and
-        a few other web technologies.
-      </p>
-      <h2>Skills</h2>
-      <div id="skills"> </div>
+      <div className="about-wrapper">
+        <div className="intro">
+          <h2>About me</h2>
+          <img src={Me} alt="Me"></img>
+          <p className="description">
+            I build microservices that scale and frontends that feel native like
+            for the web. I'm a fullstack engineer with over&nbsp;
+            {calculateExperience(new Date(2019, 11, 27, 0, 0, 0, 0))} years of
+            experience. My skills include JavaScript Core, Node.js, React, MySQL
+            and a few other web technologies.
+          </p>
+        </div>
+        <div>
+          <h2>Skills</h2>
+          <div id="skills"> </div>
+        </div>
+      </div>
       <h2>Work Experience</h2>
       <ul>
         <li>
