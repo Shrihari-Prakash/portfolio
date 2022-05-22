@@ -72,9 +72,14 @@ export default function StatusBar() {
   return (
     <StatusBarWrapper>
       <div className="left">
-        <div className="remote-window-btn">
+        <a
+          className="remote-window-btn"
+          href="https://youtu.be/dQw4w9WgXcQ"
+          target="_blank"
+          rel="noreferrer"
+        >
           <SmileOutlined />
-        </div>
+        </a>
         <div className="status-btn">
           <BranchesOutlined /> main
         </div>
