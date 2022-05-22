@@ -23,16 +23,16 @@ function App() {
           <Tabs />
           <Page>
             <Routes>
-              <Route path={routes.HOME} element={<Home />}></Route>
+              <Route exact path={routes.HOME} element={<Home />}></Route>
             </Routes>
             <Routes>
-              <Route path={routes.ABOUT} element={<About />}></Route>
+              <Route exact path={routes.ABOUT} element={<About />}></Route>
             </Routes>
             <Routes>
-              <Route path={routes.CONTACT} element={<Contact />}></Route>
+              <Route exact path={routes.CONTACT} element={<Contact />}></Route>
             </Routes>
             <Routes>
-              <Route path={routes.PROJECTS} element={<Project />}></Route>
+              <Route exact path={routes.PROJECTS} element={<Project />}></Route>
             </Routes>
           </Page>
         </div>
