@@ -5,7 +5,7 @@ const Theme = {
     Accent: "#F9826C",
     Accent2: "#0366D6",
     TextOnBackground: "#FFFFFF",
-    Border: "#1B1F23",
+    Border: "#00000000",
   },
   Media: {
     Mobile: "@media only screen and (max-width:960px)",

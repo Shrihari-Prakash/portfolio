@@ -7,7 +7,6 @@ import files from "./data/files";
 const TabsWrapper = styled.div`
   width: 100%;
   height: 35px;
-  border-bottom: 1px solid ${Theme.Colors.Border};
   display: flex;
   align-items: center;
   overflow-x: auto;
