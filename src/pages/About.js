@@ -5,10 +5,19 @@ import Theme from "../theme";
 import Me from "../assets/images/me.jpg";
 
 function calculateExperience(date) {
-  // birthday is a date
-  var expDifMs = Date.now() - date;
-  var expDate = new Date(expDifMs); // miliseconds from epoch
-  return expDate.getUTCFullYear() - 1970;
+  const d1 = new Date();
+  const d2 = date;
+  let dy = d1.getYear() - d2.getYear();
+  let dm = d1.getMonth() - d2.getMonth();
+  let dd = d1.getDate() - d2.getDate();
+
+  if (dd < 0) { dm -= 1; dd += 30; }
+  if (dm < 0) { dy -= 1; dm += 12; }
+
+
+  var message = dy + " years" + (dm > 0 ? " and " + dm + " months" : "");
+
+  return message
 }
 
 const AboutWrapper = styled.div`
@@ -18,6 +27,7 @@ const AboutWrapper = styled.div`
   padding: 16px;
   color: ${Theme.Colors.TextOnBackground};
   text-align: left;
+  cursor: default;
 
   .about-wrapper {
     display: flex;
@@ -126,8 +136,8 @@ export default function About() {
           <img src={Me} alt="Me"></img>
           <p className="description">
             I build microservices that scale and frontends that feel native like
-            for the web. I'm a fullstack engineer with over&nbsp;
-            {calculateExperience(new Date(2019, 11, 27, 0, 0, 0, 0))} years of
+            for the web. I'm a fullstack engineer with&nbsp;
+            {calculateExperience(new Date(2019, 11, 27, 0, 0, 0, 0))} of
             experience. My skills include JavaScript Core, Node.js, React, MySQL
             and a few other web technologies.
           </p>

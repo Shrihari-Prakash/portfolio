@@ -31,7 +31,7 @@ const StatusBarWrapper = styled.div`
       border-top: 1px solid ${Theme.Colors.Border};
       color: ${Theme.Colors.TextOnBackground};
       font-size: small;
-      cursor: pointer;
+      cursor: wait;
     }
 
     .status-btn {
@@ -43,6 +43,7 @@ const StatusBarWrapper = styled.div`
       height: 100%;
       opacity: 0.8;
       user-select: none;
+      text-decoration: none;
 
       :hover {
         background-color: rgba(255, 255, 255, 0.1);
@@ -80,9 +81,13 @@ export default function StatusBar() {
         >
           <SmileOutlined />
         </a>
-        <div className="status-btn">
+        <a
+          className="status-btn"
+          href="https://github.com/Shrihari-Prakash/portfolio"
+          target="_blank"
+          rel="noreferrer">
           <BranchesOutlined /> main
-        </div>
+        </a>
         <div className="status-btn">
           <CloseCircleOutlined /> 0 &nbsp;
           <WarningOutlined /> 0

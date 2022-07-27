@@ -7,6 +7,7 @@ const ContactWrapper = styled.div`
   counter-reset: line;
   color: ${Theme.Colors.TextOnBackground};
   text-align: left;
+  cursor: default;
 
   ${Theme.Media.Mobile}, ${Theme.Media.Portrait} {
     font-size: small;
@@ -38,11 +39,11 @@ export default function Contact() {
       <div className="code-line">
         &nbsp;&nbsp;website:{" "}
         <a
-          href="https://shrihari-prakasam.netlify.app"
+          href="https://shrihari-prakash.github.io/portfolio"
           rel="noreferrer"
           target="_blank"
         >
-          shrihari-prakasam.netlify.app
+          shrihari-prakash.github.io/portfolio
         </a>
       </div>
       <div className="code-line">
