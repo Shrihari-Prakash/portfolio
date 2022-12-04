@@ -162,19 +162,19 @@ const projectList = [
     demo: "https://www.npmjs.com/package/event-factory",
   },
   {
+    name: "Telmi.AI",
+    thumbnail: TelmiAI,
+    description:
+      "An intelligent virtual e-detailing sales rep designed allows pharma companies to interact with doctors who are too busy to meet human sales reps.",
+    tags: ["javascript", "node", "php", "mysql", "react"],
+  },
+  {
     name: "Node.js OAuth Server",
     thumbnail: NodeOAuth,
     description:
       "An open-source TypeScript implementation of oauthjs/node-oauth2-server using Mongo DB with user sign up and login ✨",
     tags: ["NodeOAuth", "node", "mongodb"],
     source_code: "https://github.com/Shrihari-Prakash/nodejs-oauth2"
-  },
-  {
-    name: "Telmi.AI",
-    thumbnail: TelmiAI,
-    description:
-      "An intelligent virtual e-detailing sales rep designed allows pharma companies to interact with doctors who are too busy to meet human sales reps.",
-    tags: ["javascript", "node", "php", "mysql", "react"],
   },
 ];
 
