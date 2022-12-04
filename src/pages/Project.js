@@ -4,6 +4,7 @@ import Theme from "../theme";
 import CommaMessenger from "../assets/images/screenshots/comma-messenger.png";
 import RayAppRelease from "../assets/images/screenshots/rayapp-release-hub.png";
 import EventFactory from "../assets/images/screenshots/event-factory.jpeg";
+import NodeOAuth from "../assets/images/screenshots/node-oauth.png";
 import TelmiAI from "../assets/images/screenshots/telmi-ai.png";
 import Button from "../Components/common/Button";
 
@@ -159,6 +160,13 @@ const projectList = [
     tags: ["javascript"],
     source_code: "https://github.com/Shrihari-Prakash/event-factory",
     demo: "https://www.npmjs.com/package/event-factory",
+  },
+  {
+    name: "Node.js OAuth Server",
+    thumbnail: NodeOAuth,
+    description:
+      "An open-source TypeScript implementation of oauthjs/node-oauth2-server using Mongo DB with user sign up and login ✨",
+    tags: ["NodeOAuth", "node", "mongodb"],
   },
   {
     name: "Telmi.AI",
