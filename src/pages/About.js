@@ -150,6 +150,23 @@ export default function About() {
             <i class="devicon-azure-plain"></i>
           </h4>
           <p class="soft-text">June 2021 - Present</p>
+          <p class="soft-text">
+            TESTIMONIALS:<br />
+            <p>
+              Hi Shrihari,<br /><br />
+              Congratulations on receiving the All Star award!!<br />
+              I take this opportunity to appreciate your contributions towards WWE right from the time you joined the team in June of last year. Please keep it up!<br /><br />
+              Shrihari's Achievements:<br /><br />
+              <ul>
+                <li>Shrihari has been great performer from the very first day of joining Genesys.</li>
+                <li>He has consistently gone above and beyond what his role required off him and has been recognised for this by the team in Brest.</li>
+                <li>For the Teams Integration project, he completed multiple PoCs with great speed and quality. This involved creation of new Node.js services and communication with other exiting services in a relatively complex setup.</li>
+                <li>He was adept at using several new tools and techniques for the PoCs including GraphQL, WebSocket, Redis, Kafka etc of which he had little or no prior experience.</li >
+                <li>Finally, I find his unwavering dedication to work a quality that needs special mention and appreciation.</li>
+              </ul>
+            </p>
+            - Development Manager, Genesys
+          </p>
         </li>
         <li>
           <h3 class="org-name">Inqutec Labs</h3>
