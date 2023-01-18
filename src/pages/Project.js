@@ -169,12 +169,12 @@ const projectList = [
     tags: ["javascript", "node", "php", "mysql", "react"],
   },
   {
-    name: "Node.js OAuth Server",
+    name: "Liquid",
     thumbnail: NodeOAuth,
     description:
-      "An open-source TypeScript implementation of oauthjs/node-oauth2-server using Mongo DB with user sign up and login ✨",
+      "Seamless authentication and user management APIs for your projects based on TypeScript, MongoDB and Redis. ✨",
     tags: ["NodeOAuth", "node", "mongodb"],
-    source_code: "https://github.com/Shrihari-Prakash/nodejs-oauth2"
+    source_code: "https://github.com/shrihari-prakash/liquid"
   },
 ];
 
