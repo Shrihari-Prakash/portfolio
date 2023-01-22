@@ -151,7 +151,7 @@ export default function About() {
           </h4>
           <p class="soft-text">June 2021 - Present</p>
           <p class="soft-text">
-            TESTIMONIALS:<br />
+            💼 TESTIMONIALS:<br />
             <p>
               Hi Shrihari,<br /><br />
               Congratulations on receiving the All Star award!!<br />
@@ -166,6 +166,15 @@ export default function About() {
               </ul>
             </p>
             - Development Manager, Genesys
+          </p>
+          <p class="soft-text">
+            🏆 AWARDS:<br />
+            <p>
+              <ul>
+                <li>All Star - Genesys Chennai Micro-Talks</li>
+                <li>Popular Speaker - Genesys Telecom Labs</li>
+              </ul>
+            </p>
           </p>
         </li>
         <li>
@@ -195,7 +204,7 @@ export default function About() {
           </h4>
           <p class="soft-text">May 2019 - November 2019</p>
           <p class="soft-text">
-            TESTIMONIALS:
+            💼 TESTIMONIALS:
             <p>
               "Shrihari built a web application for our business where we let
               independent artists release their music onto popular streaming
