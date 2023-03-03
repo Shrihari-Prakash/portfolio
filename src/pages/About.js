@@ -191,7 +191,7 @@ export default function About() {
           </h4>
           <p class="soft-text">May 2020 - June 2021</p>
           <h4>Associate Software Engineer</h4>
-          <p class="soft-text">November 2019 - June 2021</p>
+          <p class="soft-text">November 2019 - May 2020</p>
         </li>
         <li>
           <h3 class="org-name">Rayappa Productions PVT. LTD</h3>
