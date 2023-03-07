@@ -64,7 +64,7 @@ const HomeWrapper = styled.div`
 
   .subtitle::after {
     content: "";
-    width: 80px;
+    width: 40px;
     height: 2px;
     display: inline-block;
     background: ${Theme.Colors.TextOnBackground};
