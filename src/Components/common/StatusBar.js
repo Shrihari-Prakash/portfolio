@@ -25,7 +25,7 @@ const StatusBarWrapper = styled.div`
     display: flex;
 
     .remote-window-btn {
-      background-color: ${Theme.Colors.Accent2};
+      background-color: ${Theme.Colors.Accent};
       height: 100%;
       width: 34px;
       border-top: 1px solid ${Theme.Colors.Border};

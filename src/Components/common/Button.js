@@ -11,7 +11,7 @@ const ButtonWrapper = styled.div`
     font-family: "Roboto Mono";
     font-size: small;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 0px;
     white-space: nowrap;
   }
   :hover {

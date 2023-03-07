@@ -32,6 +32,7 @@ const AboutWrapper = styled.div`
     .intro {
       width: 45%;
       text-align: center;
+      position: relative;
 
       ${Theme.Media.Portrait}, ${Theme.Media.Mobile} {
         width: 100%;
@@ -75,6 +76,12 @@ const AboutWrapper = styled.div`
     }
   }
 
+  h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+
   .org-name {
     margin-top: 36px;
     margin-bottom: 12px;
@@ -84,6 +91,14 @@ const AboutWrapper = styled.div`
     margin-bottom: 18px;
     font-size: small;
     opacity: 0.8;
+  }
+
+  .description {
+    text-align: left;
+
+    ${Theme.Media.Portrait}, ${Theme.Media.Mobile} {
+      text-align: center;
+    }
   }
 `;
 
@@ -106,7 +121,7 @@ export default function About() {
       "Microsoft Graph REST",
     ];
     const options = {
-      radius: window.screen.availWidth < 500 ? 150 : 250,
+      radius: window.screen.availWidth < 500 ? 150 : 200,
     };
 
     const tagcloud = TagCloud(container, texts, options);
@@ -120,7 +135,7 @@ export default function About() {
     <AboutWrapper>
       <div className="about-wrapper">
         <div className="intro">
-          <h2>About me</h2>
+          <h2 class="about-heading">About</h2>
           <img src={Me} alt="Me"></img>
           <p className="description">
             I build microservices that scale and frontends that feel native like

@@ -31,10 +31,10 @@ const ProjectWrapper = styled.div`
     position: relative;
     display: block;
     height: 100%;
-    border-radius: 4px;
+    border-radius: 0;
     overflow: hidden;
     text-decoration: none;
-    border-radius: 1px solid ${Theme.Colors.Border};
+    border: 1px solid ${Theme.Colors.Border};
   }
 
   .card__image {
@@ -49,7 +49,7 @@ const ProjectWrapper = styled.div`
     left: 0;
     right: 0;
     z-index: 1;
-    border-radius: 4px;
+    border-radius: 0;
     background-color: ${Theme.Colors.Background};
     transform: translateY(100%);
     transition: 0.2s ease-in-out;

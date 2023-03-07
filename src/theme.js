@@ -1,9 +1,9 @@
 const Theme = {
   Colors: {
-    Background: "#1F2428",
-    Surface: "#24292E",
-    Accent: "#F9826C",
-    Accent2: "#0366D6",
+    Background: "#1e1e1e",
+    Surface: "#1e1e1e",
+    Accent: "#f40968",
+    Accent2: "#176f2c",
     TextOnBackground: "#FFFFFF",
     Border: "#00000000",
   },

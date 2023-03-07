@@ -29,80 +29,70 @@ const HomeWrapper = styled.div`
 
     .action-buttons {
       display: flex;
-      align-items: center;
-      justify-content: center;
       width: 100%;
       margin: 32px 0;
 
       div {
-        margin: 0 24px;
+        margin-right: 24px;
       }
     }
   }
 
-  .glitch,
-  .glow {
-    margin: 25px;
+  .title-main {
+    margin: 0;
     position: relative;
-    font-size: 36px;
-    animation: glitch 5s 5s infinite;
     white-space: nowrap;
     display: flex;
-    align-items: center;
-    justify-content: center;
-
-    ${Theme.Media.Portrait}, ${Theme.Media.Mobile} {
-      font-size: 34px;
-    }
+    transition: all 0.3s ease-in-out;
   }
 
-  @keyframes fudge {
-    from {
-      transform: translate(0px, 0px);
-    }
-    to {
-      transform: translate(0px, 2%);
-    }
-  }
-  .glow {
-    text-shadow: 0 0 1000px #dfbfbf;
-    color: transparent;
-    position: absolute;
-    top: 0;
-  }
-
-  .subtitle {
-    font-family: "Roboto Mono";
-    font-weight: bold;
-    font-size: 12px;
-    letter-spacing: 0.8em;
-    text-align: center;
-    text-transform: uppercase;
-    animation: glitch-2 5s 5.02s infinite;
-
-    ${Theme.Media.Portrait}, ${Theme.Media.Mobile} {
-      font-size: 10px;
-    }
-  }
-
-  @keyframes glitch-2 {
-    1% {
-      transform: rotateX(10deg) skewX(70deg);
-    }
-    2% {
-      transform: rotateX(0deg) skewX(0deg);
-    }
-  }
-
-  h2 {
+  .subtitle, .description {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px;
     margin: 0;
-    writing-mode: vertical-lr;
-    text-align: center;
-    line-height: 0.9;
+    letter-spacing: 2px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Merriweather", serif;
+    transition: all 0.3s ease-in-out;
+
+    ${Theme.Media.Portrait}, ${Theme.Media.Mobile} {
+      font-size: 18px;
+    }
   }
 
-  .rotate {
-    transform: rotate(180deg);
+  .subtitle::after {
+    content: "";
+    width: 80px;
+    height: 2px;
+    display: inline-block;
+    background: ${Theme.Colors.TextOnBackground};
+    margin: 7px 10px;
+    opacity: 0.8;
+
+    ${Theme.Media.Portrait}, ${Theme.Media.Mobile} {
+      margin: 6px 10px;
+    }
+  }
+
+  .subtitle:hover, .description:hover, .title-main:hover {
+    transform: translateY(-8px);
+  }
+
+  .description {
+    text-transform: none;
+  }
+
+  h1 {
+    font-family: "Merriweather", serif;
+    font-size: 42px;
+    font-weight: lighter;
+    margin: 0;
+
+    ${Theme.Media.Portrait}, ${Theme.Media.Mobile} {
+      font-size: 30px;
+    }
   }
 
   .texture {
@@ -121,12 +111,11 @@ export default function Home() {
   return (
     <HomeWrapper>
       <div class="container">
-        <p class="subtitle">Hello, I'm</p>
-        <div class="glitch" data-text="SHRIHARI PRAKASAM">
-          <h2 class="rotate">Shrihari</h2>
-          <h2>Prakasam</h2>
+        <p class="subtitle">Hello</p>
+        <div class="title-main" data-text="SHRIHARI PRAKASAM">
+          <h1>I'm <b>Shrihari</b> Prakasam</h1>
         </div>
-        <p class="subtitle">Fullstack Engineer</p>
+        <p class="description">Fullstack Engineer</p>
         <div className="action-buttons">
           <Button onClick={() => navigate(routes.ABOUT)}>About Me</Button>
           <Button onClick={() => navigate(routes.PROJECTS)}>Projects</Button>
