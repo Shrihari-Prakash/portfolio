@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import GitHubCalendar from 'react-github-calendar';
 import styled from "styled-components";
 import Button from "../Components/common/Button";
 import { routes } from "../routes";
@@ -104,7 +105,25 @@ const HomeWrapper = styled.div`
     opacity: 0.15;
     background-image: url(${BgImage});
   }
+
+  .react-activity-calendar {
+    margin-top: 18px;
+
+    .react-activity-calendar__count {
+      font-family: "Roboto Mono";
+      font-size: 12px;
+      opacity: 0.7;
+    }
+  }
 `;
+
+const theme = {
+  level0: '#161B2200',
+  level1: '#0e4429',
+  level2: '#006d32',
+  level3: '#26a641',
+  level4: '#39d353',
+};
 
 export default function Home() {
   const navigate = useNavigate();
@@ -116,6 +135,15 @@ export default function Home() {
           <h1>I'm <b>Shrihari</b> Prakasam</h1>
         </div>
         <p class="description">Fullstack Engineer</p>
+        <GitHubCalendar
+          username="shrihari-prakash"
+          theme={theme}
+          hideColorLegend
+          hideMonthLabels
+          blockSize={24}
+          blockRadius={4}
+          blockMargin={6}
+        />
         <div className="action-buttons">
           <Button onClick={() => navigate(routes.ABOUT)}>About Me</Button>
           <Button onClick={() => navigate(routes.PROJECTS)}>Projects</Button>
