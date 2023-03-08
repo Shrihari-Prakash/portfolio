@@ -13,7 +13,7 @@ import ReactIcon from "../../assets/images/react_icon.svg";
 
 const StatusBarWrapper = styled.div`
   width: 100%;
-  height: 23px;
+  height: 22px;
   background-color: ${Theme.Colors.Surface};
   display: flex;
   justify-content: space-between;
@@ -35,7 +35,9 @@ const StatusBarWrapper = styled.div`
     }
 
     .status-btn {
-      display: table-cell;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       padding: 0 10px;
       font-size: small;
       color: ${Theme.Colors.TextOnBackground};
@@ -51,13 +53,15 @@ const StatusBarWrapper = styled.div`
 
       .anticon {
         vertical-align: middle;
-        margin: 0 1px;
+        margin-right: 4px;
       }
 
       .status-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
         padding: 0 2px;
-        display: inline-block;
-        vertical-align: middle;
       }
     }
   }
