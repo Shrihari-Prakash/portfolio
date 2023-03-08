@@ -20,9 +20,9 @@
 }
 
 .AppWrapper {
-  height: 100%;
+  flex: 1;
+  overflow-y: hidden;
   width: 100%;
-  max-height: calc(100% - 21px - 32px);
   position: relative;
   display: flex;
   border-bottom: 1px solid #1f2428;
