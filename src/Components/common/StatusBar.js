@@ -66,9 +66,9 @@ const StatusBarWrapper = styled.div`
     }
   }
 
-  .right {
+  .hidden-mobile {
     ${Theme.Media.Portrait}, ${Theme.Media.Mobile} {
-      display: none;
+      display: none !important;
     }
   }
 `;
@@ -92,16 +92,16 @@ export default function StatusBar() {
           rel="noreferrer">
           <BranchesOutlined /> main
         </a>
-        <div className="status-btn">
+        <div className="status-btn hidden-mobile">
           <CloseCircleOutlined /> 0 &nbsp;
           <WarningOutlined /> 0
         </div>
       </div>
       <div className="right">
-        <div className="status-btn">Spaces: 4</div>
+        <div className="status-btn hidden-mobile">Spaces: 4</div>
         <div className="status-btn">UTF-8</div>
         <div className="status-btn">CRLF</div>
-        <div className="status-btn">
+        <div className="status-btn hidden-mobile">
           <div className="status-icon">
             <img src={ReactIcon} width={13} className="icon" alt="React" />
           </div>
