@@ -39,4 +39,5 @@
 
 * {
   -webkit-tap-highlight-color: transparent;
+  stroke: rgba(0, 0, 0, 0) !important;
 }

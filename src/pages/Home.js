@@ -140,9 +140,7 @@ export default function Home() {
           theme={theme}
           hideColorLegend
           hideMonthLabels
-          blockSize={24}
-          blockRadius={4}
-          blockMargin={6}
+          blockRadius={10}
         />
         <div className="action-buttons">
           <Button onClick={() => navigate(routes.ABOUT)}>About Me</Button>
