@@ -53,6 +53,10 @@ const ProjectWrapper = styled.div`
     background-color: ${Theme.Colors.Background};
     transform: translateY(100%);
     transition: 0.2s ease-in-out;
+
+    ${Theme.Media.Portrait}, ${Theme.Media.Mobile} {
+      transition: none;
+    }
   }
 
   .card:hover .card__overlay {
@@ -69,6 +73,10 @@ const ProjectWrapper = styled.div`
     background-color: ${Theme.Colors.Background}D9;
     transform: translateY(-100%);
     transition: 0.2s ease-in-out;
+
+    ${Theme.Media.Portrait}, ${Theme.Media.Mobile} {
+      transition: none;
+    }
   }
 
   .card__arc {
