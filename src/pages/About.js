@@ -19,7 +19,7 @@ const AboutWrapper = styled.div`
 
   .about-wrapper {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-evenly;
 
     #skills {
@@ -30,9 +30,13 @@ const AboutWrapper = styled.div`
     }
 
     .intro {
-      width: 45%;
       text-align: center;
       position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 50%;
 
       ${Theme.Media.Portrait}, ${Theme.Media.Mobile} {
         width: 100%;
@@ -40,8 +44,8 @@ const AboutWrapper = styled.div`
     }
 
     img {
-      height: 160px;
-      width: 160px;
+      height: 180px;
+      width: 180px;
       border-radius: 100%;
     }
 
@@ -121,7 +125,7 @@ export default function About() {
       "Microsoft Graph REST",
     ];
     const options = {
-      radius: window.screen.availWidth < 500 ? 150 : 200,
+      radius: window.screen.availWidth < 500 ? 150 : 180,
     };
 
     const tagcloud = TagCloud(container, texts, options);
