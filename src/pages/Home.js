@@ -111,7 +111,7 @@ const HomeWrapper = styled.div`
 `;
 
 const theme = {
-  level0: Theme.Colors.Background + "1A",
+  level0: Theme.Colors.Background + "40",
   level1: '#0e4429',
   level2: '#006d32',
   level3: '#26a641',
