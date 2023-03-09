@@ -100,8 +100,6 @@ const HomeWrapper = styled.div`
     margin-top: 24px;
 
     .react-activity-calendar__count {
-      font-family: "Merriweather";
-      font-size: 11px;
       font-weight: lighter;
       opacity: 0.5;
     }
@@ -113,7 +111,7 @@ const HomeWrapper = styled.div`
 `;
 
 const theme = {
-  level0: '#161B2200',
+  level0: Theme.Colors.Background + "1A",
   level1: '#0e4429',
   level2: '#006d32',
   level3: '#26a641',
