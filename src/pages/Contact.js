@@ -10,7 +10,6 @@ const ContactWrapper = styled.div`
   cursor: default;
 
   ${Theme.Media.Mobile}, ${Theme.Media.Portrait} {
-    font-size: small;
     padding: 4px;
   }
 

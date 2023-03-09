@@ -113,7 +113,7 @@ const ProjectWrapper = styled.div`
   .card__tagline {
     display: block;
     margin: 1em 0;
-    font-family: "Roboto Mono";
+    font-family: "Open Sans";
     font-size: 0.8em;
     color: ${Theme.Colors.TextOnBackground};
   }
@@ -127,7 +127,7 @@ const ProjectWrapper = styled.div`
     padding: 0 2em 0.7em;
     margin: 0;
     color: ${Theme.Colors.TextOnBackground};
-    font-family: "Roboto Mono";
+    font-family: "Open Sans";
     font-size: small;
     display: -webkit-box;
     -webkit-box-orient: vertical;

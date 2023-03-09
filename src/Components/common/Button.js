@@ -8,7 +8,6 @@ const ButtonWrapper = styled.div`
     color: white;
     padding: 6px 24px;
     border: 1px solid transparent;
-    font-family: "Roboto Mono";
     font-size: small;
     cursor: pointer;
     border-radius: 0px;

@@ -81,9 +81,11 @@ const AboutWrapper = styled.div`
   }
 
   h2 {
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    line-height: 38px;
     text-transform: uppercase;
     font-size: 1rem;
-    font-weight: 800;
   }
 
   .org-name {
@@ -94,6 +96,12 @@ const AboutWrapper = styled.div`
   .soft-text {
     margin-bottom: 18px;
     font-size: small;
+    opacity: 0.8;
+  }
+
+  .job-description {
+    margin: 18px 0;
+    font-size: normal;
     opacity: 0.8;
   }
 
@@ -169,31 +177,16 @@ export default function About() {
             <i class="devicon-azure-plain"></i>
           </h4>
           <p class="soft-text">June 2021 - Present</p>
-          <p class="soft-text">
-            💼 TESTIMONIALS:<br />
-            <p>
-              Hi Shrihari,<br /><br />
-              Congratulations on receiving the All Star award!!<br />
-              I take this opportunity to appreciate your contributions towards WWE right from the time you joined the team in June of last year. Please keep it up!<br /><br />
-              Shrihari's Achievements:<br /><br />
-              <ul>
-                <li>Shrihari has been great performer from the very first day of joining Genesys.</li>
-                <li>He has consistently gone above and beyond what his role required off him and has been recognised for this by the team in Brest.</li>
-                <li>For the Teams Integration project, he completed multiple PoCs with great speed and quality. This involved creation of new Node.js services and communication with other exiting services in a relatively complex setup.</li>
-                <li>He was adept at using several new tools and techniques for the PoCs including GraphQL, WebSocket, Redis, Kafka etc of which he had little or no prior experience.</li >
-                <li>Finally, I find his unwavering dedication to work a quality that needs special mention and appreciation.</li>
-              </ul>
-            </p>
-            - Development Manager, Genesys
+          <p class="job-description">
+            My contributions here include building a microservice based on Node.js to enable Genesys contact centers operate on third party voice end points like Microsoft Teams.
+            I've also maintained product integrations with Salesforce.
           </p>
-          <p class="soft-text">
-            🏆 AWARDS:<br />
-            <p>
-              <ul>
-                <li>All Star - Genesys Chennai Micro-Talks</li>
-                <li>Popular Speaker - Genesys Telecom Labs</li>
-              </ul>
-            </p>
+          <p class="job-description">
+            Awards:
+            <ul>
+              <li>All Star - Genesys Telecom Labs</li>
+              <li>Popular Speaker - Genesys Chennai Micro-Talks</li>
+            </ul>
           </p>
         </li>
         <li>
@@ -209,6 +202,10 @@ export default function About() {
             <i class="devicon-php-plain"></i>
           </h4>
           <p class="soft-text">May 2020 - June 2021</p>
+          <p class="job-description">
+            I've built quite a lot of web solutions here for the pharma industry brand marketing. One of them is an AI based interactive E-Deailing platform for busy doctors who cannot meet salesreps regularly.
+            I also built a large part of a video conferencing platform that is tailored for medical conferences.
+          </p>
           <h4>Associate Software Engineer</h4>
           <p class="soft-text">November 2019 - May 2020</p>
         </li>
@@ -222,19 +219,8 @@ export default function About() {
             <i class="devicon-mongodb-plain"></i>
           </h4>
           <p class="soft-text">May 2019 - November 2019</p>
-          <p class="soft-text">
-            💼 TESTIMONIALS:
-            <p>
-              "Shrihari built a web application for our business where we let
-              independent artists release their music onto popular streaming
-              services. With the introduction of this web application, we were
-              able to automate a lot of process in the way we handle music
-              releases at our label that took quite a lot of time and manual
-              effort. Shrihari has also helped us expand our online presence
-              greatly by making us a static business site. Wishing him good luck
-              on his software engineering journey!"
-            </p>
-            - Rayappan Francis (Founder & CEO, Rayappa Productions)
+          <p class="job-description">
+            Song upload and music catalog management portal based on TypeScript, Node.js, MongoDB and React JS that lets independent music artists release songs on mainstream music platforms like Spotify and  Apple Music.
           </p>
         </li>
       </ul>

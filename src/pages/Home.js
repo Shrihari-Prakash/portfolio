@@ -15,7 +15,6 @@ const HomeWrapper = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  font-family: "Didot", monospace;
   font-size: large;
   position: relative;
   overflow: hidden;
@@ -48,9 +47,9 @@ const HomeWrapper = styled.div`
   }
 
   .subtitle, .description {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
-    line-height: 50px;
+    line-height: 38px;
     margin: 0;
     letter-spacing: 2px;
     text-align: left;
@@ -63,32 +62,23 @@ const HomeWrapper = styled.div`
     }
   }
 
-  .subtitle::after {
-    content: "";
-    width: 40px;
-    height: 2px;
-    display: inline-block;
-    background: ${Theme.Colors.TextOnBackground};
-    margin: 7px 10px;
-    opacity: 0.8;
-
-    ${Theme.Media.Portrait}, ${Theme.Media.Mobile} {
-      margin: 6px 10px;
-    }
-  }
-
   .subtitle:hover, .description:hover, .title-main:hover {
-    transform: translateY(-8px);
+    
   }
 
   .description {
-    text-transform: none;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    opacity: 0.5;
   }
 
   h1 {
     font-family: "Merriweather", serif;
-    font-size: 42px;
+    font-size: 34px;
     font-weight: lighter;
+    text-transform: uppercase;
     margin: 0;
 
     ${Theme.Media.Portrait}, ${Theme.Media.Mobile} {
@@ -107,12 +97,13 @@ const HomeWrapper = styled.div`
   }
 
   .react-activity-calendar {
-    margin-top: 18px;
+    margin-top: 24px;
 
     .react-activity-calendar__count {
-      font-family: "Roboto Mono";
-      font-size: 12px;
-      opacity: 0.7;
+      font-family: "Merriweather";
+      font-size: 11px;
+      font-weight: lighter;
+      opacity: 0.5;
     }
 
     rect {
@@ -134,9 +125,9 @@ export default function Home() {
   return (
     <HomeWrapper>
       <div class="container">
-        <p class="subtitle">Hello</p>
+        <p class="subtitle">Hello, I'm</p>
         <div class="title-main" data-text="SHRIHARI PRAKASAM">
-          <h1>I'm <b>Shrihari</b> Prakasam</h1>
+          <h1><b>Shrihari</b> Prakasam</h1>
         </div>
         <p class="description">Fullstack Engineer</p>
         <GitHubCalendar
