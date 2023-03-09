@@ -114,6 +114,10 @@ const HomeWrapper = styled.div`
       font-size: 12px;
       opacity: 0.7;
     }
+
+    rect {
+      stroke: none;
+    }
   }
 `;
 
