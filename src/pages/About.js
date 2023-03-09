@@ -220,7 +220,7 @@ export default function About() {
           </h4>
           <p class="soft-text">May 2019 - November 2019</p>
           <p class="job-description">
-            Song upload and music catalog management portal based on TypeScript, Node.js, MongoDB and React JS that lets independent music artists release songs on mainstream music platforms like Spotify and  Apple Music.
+            I've developed a song upload and music catalog management portal based on TypeScript, Node.js, MongoDB and React JS that lets independent music artists release songs on mainstream music platforms like Spotify and  Apple Music.
           </p>
         </li>
       </ul>
