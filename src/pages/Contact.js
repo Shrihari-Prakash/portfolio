@@ -36,7 +36,7 @@ export default function Contact() {
       <br></br>
       <div className="code-line">{"{"}</div>
       <div className="code-line">
-        &nbsp;&nbsp;website:{" "}
+        &nbsp;&nbsp;Website:{" "}
         <a
           href="https://shrihari-prakash.github.io/portfolio"
           rel="noreferrer"
@@ -46,13 +46,13 @@ export default function Contact() {
         </a>
       </div>
       <div className="code-line">
-        &nbsp;&nbsp;email:{" "}
+        &nbsp;&nbsp;E-Mail:{" "}
         <a href="mailto:shrihariprakasam@gmail.com">
           shrihariprakasam@gmail.com
         </a>
       </div>
       <div className="code-line">
-        &nbsp;&nbsp;github:{" "}
+        &nbsp;&nbsp;GitHub:{" "}
         <a
           href="https://github.com/Shrihari-Prakash"
           rel="noreferrer"
@@ -62,13 +62,23 @@ export default function Contact() {
         </a>
       </div>
       <div className="code-line">
-        &nbsp;&nbsp;linkedin:{" "}
+        &nbsp;&nbsp;LinkedIn:{" "}
         <a
           href="https://www.linkedin.com/in/shrihari-prakasam/"
           rel="noreferrer"
           target="_blank"
         >
           shrihari-prakasam
+        </a>
+      </div>
+      <div className="code-line">
+        &nbsp;&nbsp;Medium:{" "}
+        <a
+          href="https://shrihariprakash.medium.com"
+          rel="noreferrer"
+          target="_blank"
+        >
+          shrihariprakash.medium.com
         </a>
       </div>
       <div className="code-line">{"}"}</div>
