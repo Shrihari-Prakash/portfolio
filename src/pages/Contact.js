@@ -54,11 +54,11 @@ export default function Contact() {
       <div className="code-line">
         &nbsp;&nbsp;GitHub:{" "}
         <a
-          href="https://github.com/Shrihari-Prakash"
+          href="https://github.com/shrihari-prakash"
           rel="noreferrer"
           target="_blank"
         >
-          Shrihari-Prakash
+          shrihari-prakash
         </a>
       </div>
       <div className="code-line">
