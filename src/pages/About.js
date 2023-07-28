@@ -81,7 +81,7 @@ const AboutWrapper = styled.div`
   }
 
   h2 {
-    font-family: "Open Sans", serif;
+    font-family: "DM Sans", serif;
     font-size: 20px;
     line-height: 38px;
     text-transform: uppercase;

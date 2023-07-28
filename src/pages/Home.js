@@ -54,7 +54,7 @@ const HomeWrapper = styled.div`
     letter-spacing: 2px;
     text-align: left;
     text-transform: uppercase;
-    font-family: "Merriweather", serif;
+    font-family: "DM Sans", serif;
     transition: all 0.3s ease-in-out;
 
     ${Theme.Media.Portrait}, ${Theme.Media.Mobile} {
@@ -75,7 +75,7 @@ const HomeWrapper = styled.div`
   }
 
   h1 {
-    font-family: "Merriweather", serif;
+    font-family: "DM Sans", serif;
     font-size: 34px;
     font-weight: lighter;
     text-transform: uppercase;
