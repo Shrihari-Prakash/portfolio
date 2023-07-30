@@ -49,7 +49,6 @@ const HomeWrapper = styled.div`
   .subtitle, .description {
     font-size: 24px;
     font-weight: 500;
-    line-height: 38px;
     margin: 0;
     letter-spacing: 2px;
     text-align: left;
