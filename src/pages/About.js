@@ -184,7 +184,8 @@ export default function About() {
           <p class="job-description">
             Awards:
             <ul>
-              <li>All Star - Genesys Telecom Labs</li>
+              <li>All Star (2023) - Genesys Telecom Labs</li>
+              <li>All Star (2022) - Genesys Telecom Labs</li>
               <li>Popular Speaker - Genesys Chennai Micro-Talks</li>
             </ul>
           </p>

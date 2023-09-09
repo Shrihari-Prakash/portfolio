@@ -183,7 +183,7 @@ const projectList = [
       "Seamless authentication and user management APIs for your projects based on TypeScript, MongoDB and Redis. ✨",
     tags: ["NodeOAuth", "node", "mongodb"],
     source_code: "https://github.com/shrihari-prakash/liquid",
-    demo: "https://liquid-pe2r.onrender.com/login?theme=light"
+    demo: "https://liquid-oauth.onrender.com"
   },
 ];
 
