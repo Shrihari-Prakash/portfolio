@@ -1,7 +1,6 @@
 {
   "name": "portfolio-shrihari-prakasam",
   "version": "0.1.0",
-  "homepage": "https://shrihari-prakash.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",

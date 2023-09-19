@@ -38,11 +38,11 @@ export default function Contact() {
       <div className="code-line">
         &nbsp;&nbsp;&nbsp;Website:{" "}
         <a
-          href="https://shrihari-prakash.github.io/portfolio"
+          href="https://shrihariprakasam.in"
           rel="noreferrer"
           target="_blank"
         >
-          shrihari-prakash.github.io/portfolio
+          shrihariprakasam.in
         </a>
       </div>
       <div className="code-line">
