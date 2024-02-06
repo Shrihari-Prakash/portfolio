@@ -6,6 +6,7 @@ import Button from "../Components/common/Button";
 import { routes } from "../routes";
 import Theme from "../theme";
 import BgImage from "../assets/images/home-bg.svg";
+import Memoji from "../assets/images/memoji.png";
 
 const HomeWrapper = styled.div`
   height: 100%;
@@ -35,6 +36,20 @@ const HomeWrapper = styled.div`
       div {
         margin-right: 24px;
       }
+    }
+  }
+
+  .greeting-container {
+    display: flex;
+    align-items: center;
+
+    .memoji {
+      padding-right: 8px;
+    }
+
+    ${Theme.Media.Portrait}, ${Theme.Media.Mobile} {
+      align-items: start;
+      flex-direction: column;
     }
   }
 
@@ -91,7 +106,7 @@ const HomeWrapper = styled.div`
     height: 100%;
     top: 0;
     left: 0;
-    opacity: 0.15;
+    opacity: 0.1;
     background-image: url(${BgImage});
   }
 
@@ -122,11 +137,16 @@ export default function Home() {
   return (
     <HomeWrapper>
       <div class="container">
-        <p class="subtitle">Hello, I'm</p>
-        <div class="title-main" data-text="SHRIHARI PRAKASAM">
-          <h1><b>Shrihari</b> Prakasam</h1>
+        <div class="greeting-container">
+          <img alt="memoji" className="memoji" height="96px" src={Memoji}></img>
+          <div>
+            <p class="subtitle">Hello, I'm</p>
+            <div class="title-main" data-text="SHRIHARI PRAKASAM">
+              <h1><b>Shrihari</b> Prakasam</h1>
+            </div>
+            <p class="description">Fullstack Engineer</p>
+          </div>
         </div>
-        <p class="description">Fullstack Engineer</p>
         <GitHubCalendar
           username="shrihari-prakash"
           theme={theme}
