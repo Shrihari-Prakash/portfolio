@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.01d2d145.css",
-    "main.js": "/static/js/main.8dab4662.js",
+    "main.js": "/static/js/main.0917c4f8.js",
     "static/js/787.88e82893.chunk.js": "/static/js/787.88e82893.chunk.js",
     "static/media/devicon.svg?biu5f3": "/static/media/devicon.f715b4139afc5236a6e6.svg",
+    "static/media/node-oauth.png": "/static/media/node-oauth.42cd4083659711f4a9c7.png",
     "static/media/devicon.eot?biu5f3": "/static/media/devicon.afa70020fddd5e5a3260.eot",
     "static/media/devicon.woff?biu5f3": "/static/media/devicon.96fdfd136e8a467e1861.woff",
     "static/media/devicon.ttf?biu5f3": "/static/media/devicon.b25739c2b9d15a53d60c.ttf",
+    "static/media/telmi-ai.png": "/static/media/telmi-ai.f7dd74b7731e95d8738a.png",
     "static/media/me.jpg": "/static/media/me.656a180ae6ae1fd7450a.jpg",
-    "static/media/telmi-ai.png": "/static/media/telmi-ai.2d52a5d1aa6c70c9e6ae.png",
-    "static/media/node-oauth.png": "/static/media/node-oauth.f10d0b7a5288c2545dca.png",
-    "static/media/event-factory.jpeg": "/static/media/event-factory.0c8f1d96c55eda95584e.jpeg",
+    "static/media/event-factory.png": "/static/media/event-factory.800dab6e8890ac511cb4.png",
+    "static/media/rayapp-release-hub.png": "/static/media/rayapp-release-hub.06a62d4c5973c0ff0655.png",
+    "static/media/nitrogen.png": "/static/media/nitrogen.f8807a4f65cd6496453d.png",
     "static/media/comma-messenger.png": "/static/media/comma-messenger.e6b3c7ee0a2e08c68a48.png",
-    "static/media/rayapp-release-hub.png": "/static/media/rayapp-release-hub.c0048aebc7e484f3367d.png",
     "static/media/home-bg.svg": "/static/media/home-bg.406cb2aeabf9a99edb014b9de04511fc.svg",
     "static/media/memoji.png": "/static/media/memoji.cabaef3aeb634959acf3.png",
     "static/media/vscode_icon.svg": "/static/media/vscode_icon.a4b8e5c0551f3ad73ecb8c1e4f87afe0.svg",
@@ -23,11 +24,11 @@
     "static/media/css_icon.svg": "/static/media/css_icon.add2e81e9b8e048f71a6b2e39f125f55.svg",
     "static/media/markdown_icon.svg": "/static/media/markdown_icon.f4c40ee2e9426dfebb94705bf38aa1d1.svg",
     "main.01d2d145.css.map": "/static/css/main.01d2d145.css.map",
-    "main.8dab4662.js.map": "/static/js/main.8dab4662.js.map",
+    "main.0917c4f8.js.map": "/static/js/main.0917c4f8.js.map",
     "787.88e82893.chunk.js.map": "/static/js/787.88e82893.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01d2d145.css",
-    "static/js/main.8dab4662.js"
+    "static/js/main.0917c4f8.js"
   ]
 }
