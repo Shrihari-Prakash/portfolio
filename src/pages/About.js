@@ -167,7 +167,7 @@ export default function About() {
         <li>
           <h3 class="org-name">Genesys Telecom Labs</h3>
           <h4>
-            Software Engineer
+            Senior Software Engineer
             <i class="devicon-typescript-plain"></i>
             <i class="devicon-javascript-plain"></i>
             <i class="devicon-nodejs-plain"></i>

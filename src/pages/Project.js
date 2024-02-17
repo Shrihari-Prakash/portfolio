@@ -3,8 +3,9 @@ import styled from "styled-components";
 import Theme from "../theme";
 import CommaMessenger from "../assets/images/screenshots/comma-messenger.png";
 import RayAppRelease from "../assets/images/screenshots/rayapp-release-hub.png";
-import EventFactory from "../assets/images/screenshots/event-factory.jpeg";
+import EventFactory from "../assets/images/screenshots/event-factory.png";
 import NodeOAuth from "../assets/images/screenshots/node-oauth.png";
+import Nitrogen from "../assets/images/screenshots/nitrogen.png";
 import TelmiAI from "../assets/images/screenshots/telmi-ai.png";
 import Button from "../Components/common/Button";
 
@@ -182,8 +183,15 @@ const projectList = [
     description:
       "Seamless authentication and user management APIs for your projects based on TypeScript, MongoDB and Redis. ✨",
     tags: ["NodeOAuth", "node", "mongodb"],
-    source_code: "https://github.com/shrihari-prakash/liquid",
-    demo: "https://liquid-oauth.onrender.com"
+    source_code: "https://github.com/shrihari-prakash/liquid"
+  },
+  {
+    name: "Nitrogen",
+    thumbnail: Nitrogen,
+    description:
+      "Beautiful user management admin panel for your Liquid instances. ⚙️",
+    tags: ["Nitrogen", "node", "mongodb"],
+    source_code: "https://github.com/shrihari-prakash/liquid"
   },
 ];
 
