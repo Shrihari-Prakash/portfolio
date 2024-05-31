@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Theme from "../theme";
+import Roamcalm from "../assets/images/screenshots/roamcalm.png";
 import CommaMessenger from "../assets/images/screenshots/comma-messenger.png";
 import RayAppRelease from "../assets/images/screenshots/rayapp-release-hub.png";
 import EventFactory from "../assets/images/screenshots/event-factory.png";
@@ -145,37 +146,12 @@ const ProjectWrapper = styled.div`
 
 const projectList = [
   {
-    name: "Comma Messenger",
-    thumbnail: CommaMessenger,
+    name: "Roamcalm",
+    thumbnail: Roamcalm,
     description:
-      "Open source text messenger based on React, Express, MongoDB, and socket.io with encryption and push notifications support",
-    tags: ["react", "node", "mongodb", "expressjs", "socket.io"],
-    source_code: "https://github.com/Shrihari-Prakash/comma-messenger-backend",
-    demo: "https://commamessenger.netlify.app",
-  },
-  {
-    name: "RayApp Release",
-    thumbnail: RayAppRelease,
-    description:
-      "An open music release platform for independent artists to get their songs into major music platforms like Spotify and Apple Music.",
-    tags: ["react", "node", "mongodb", "typescript", "ant-design"],
-    demo: "https://rayapprelease.com",
-  },
-  {
-    name: "Event Factory",
-    thumbnail: EventFactory,
-    description:
-      "This package provides a event broker similar to Node JS's EventEmitter API on the browser.",
-    tags: ["javascript"],
-    source_code: "https://github.com/Shrihari-Prakash/event-factory",
-    demo: "https://www.npmjs.com/package/event-factory",
-  },
-  {
-    name: "Telmi.AI",
-    thumbnail: TelmiAI,
-    description:
-      "An intelligent virtual e-detailing sales rep designed allows pharma companies to interact with doctors who are too busy to meet human sales reps.",
-    tags: ["javascript", "node", "php", "mysql", "react"],
+      "Plan trips, save documents and split expenses in one place! 🌍",
+    tags: ["node", "react", "mongodb", "redis", "typescript"],
+    demo: "https://roamcalm.com",
   },
   {
     name: "Liquid",
@@ -192,6 +168,39 @@ const projectList = [
       "Beautiful user management admin panel for your Liquid instances. ⚙️",
     tags: ["Nitrogen", "node", "mongodb"],
     source_code: "https://github.com/shrihari-prakash/liquid"
+  },
+  {
+    name: "RayApp Release",
+    thumbnail: RayAppRelease,
+    description:
+      "An open music release platform for independent artists to get their songs into major music platforms like Spotify and Apple Music.",
+    tags: ["react", "node", "mongodb", "typescript", "ant-design"],
+    demo: "https://rayapprelease.com",
+  },
+  {
+    name: "Comma Messenger",
+    thumbnail: CommaMessenger,
+    description:
+      "Open source text messenger based on React, Express, MongoDB, and socket.io with encryption and push notifications support",
+    tags: ["react", "node", "mongodb", "expressjs", "socket.io"],
+    source_code: "https://github.com/Shrihari-Prakash/comma-messenger-backend",
+    demo: "https://commamessenger.netlify.app",
+  },
+  {
+    name: "Telmi.AI",
+    thumbnail: TelmiAI,
+    description:
+      "An intelligent virtual e-detailing sales rep designed allows pharma companies to interact with doctors who are too busy to meet human sales reps.",
+    tags: ["javascript", "node", "php", "mysql", "react"],
+  },
+  {
+    name: "Event Factory",
+    thumbnail: EventFactory,
+    description:
+      "This package provides a event broker similar to Node JS's EventEmitter API on the browser.",
+    tags: ["javascript"],
+    source_code: "https://github.com/Shrihari-Prakash/event-factory",
+    demo: "https://www.npmjs.com/package/event-factory",
   },
 ];
 

@@ -187,6 +187,7 @@ export default function About() {
               <li>All Star (2023) - Genesys Telecom Labs</li>
               <li>All Star (2022) - Genesys Telecom Labs</li>
               <li>Popular Speaker - Genesys Chennai Micro-Talks</li>
+              <li>Most Valuable Player - Genesys Telecom Labs</li>
             </ul>
           </p>
         </li>
