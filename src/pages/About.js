@@ -165,7 +165,7 @@ export default function About() {
       <h2>Work Experience</h2>
       <ul>
         <li>
-          <h3 class="org-name">Genesys Telecom Labs</h3>
+          <h3 class="org-name">Genesys</h3>
           <h4>
             Senior Software Engineer
             <i class="devicon-typescript-plain"></i>
@@ -176,18 +176,19 @@ export default function About() {
             <i class="devicon-docker-plain"></i>
             <i class="devicon-azure-plain"></i>
           </h4>
-          <p class="soft-text">June 2021 - Present</p>
+          <p class="soft-text">📆 June 2021 - Present</p>
           <p class="job-description">
             My contributions here include building a microservice based on Node.js to enable Genesys contact centers operate on third party voice end points like Microsoft Teams.
             I've also maintained product integrations with Salesforce.
           </p>
           <p class="job-description">
-            Awards:
+            🥇 Awards:
             <ul>
+              <li>Most Valuable Player (2025) - Genesys Telecom Labs</li>
+              <li>Most Valuable Player (2024) - Genesys Telecom Labs</li>
               <li>All Star (2023) - Genesys Telecom Labs</li>
               <li>All Star (2022) - Genesys Telecom Labs</li>
               <li>Popular Speaker - Genesys Chennai Micro-Talks</li>
-              <li>Most Valuable Player - Genesys Telecom Labs</li>
             </ul>
           </p>
         </li>
@@ -203,7 +204,7 @@ export default function About() {
             <i class="devicon-mysql-plain"></i>
             <i class="devicon-php-plain"></i>
           </h4>
-          <p class="soft-text">May 2020 - June 2021</p>
+          <p class="soft-text">📆 May 2020 - June 2021</p>
           <p class="job-description">
             I've built quite a lot of web solutions here for the pharma industry brand marketing. One of them is an AI based interactive E-Deailing platform for busy doctors who cannot meet salesreps regularly.
             I also built a large part of a video conferencing platform that is tailored for medical conferences.
@@ -230,8 +231,8 @@ export default function About() {
       <ul>
         <li>
           <h3 class="org-name">PERI Institute of Technology</h3>
-          <h4>BE - Computer Science and Engineering</h4>
-          <p class="soft-text">2015 - 2019</p>
+          <h4>B.E - Computer Science and Engineering</h4>
+          <p class="soft-text">📆 2015 - 2019</p>
         </li>
       </ul>
     </AboutWrapper>
